@@ -6,7 +6,7 @@ class Server {
     private static Socket serverSocket;
     private static bool isRunning = true;
 
-    // Client Socket과 NickName을 저장하는 Dicktionary
+    // Client Socket과 NickName을 저장하는 Dictionary
     private static Dictionary<Socket, string> clients = new Dictionary<Socket, string>();
 
     static void Main()
